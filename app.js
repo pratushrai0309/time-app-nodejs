@@ -6,7 +6,7 @@ const time = require('./time.js')
 const express = require('express')
 const path = require('path')
 const hbs = require('hbs')
-const port = prcoess.env.PORT || 8080
+const port = process.env.PORT || 8080
 
 const app = express()
 const viewPath = path.join(__dirname,'/templates/views')
