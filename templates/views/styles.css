@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+body{
+color: #333333;
+font-family: "Roboto Mono";
+max-width: 650px;
+margin: 0px auto;
+padding: 0px 16px;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.main-content{
+flex-grow: 1;
+}
+
+footer{
+color: #888888;
+border-top: 1px solid #eeeeee;
+margin-top: 16px;
+padding: 16px 0px;
+}
+
+header{
+margin-top: 16px;
+margin-bottom: 48px;
+}
+
+h1{
+font-size: 64px;  
+margin-bottom: 16px;
+}
+
+header a{
+color: #888888;
+margin-right: 16px;
+text-decoration: none;
+}
+
+header a:hover{
+border: 1px solid #eeeeee;
+background-color: #eeeeee;
+border-radius: 2px;
+padding: 2px;
+}
+
+.portrait{
+max-width: 512px;
+max-height: 400px;
+min-width: 356px;
+min-height: 200px;
+}
+
+#time {
+font-size: 48px;
+}
+
+#weather { 
+font-size: 48px;
+}
+
+#About { 
+font-size: 35px;
+}
+
+input { 
+border: 1px solid #cccccc;
+padding: 8px;
+border-radius: 4px;
+font-family: "Roboto Mono";
+}
+
+button { 
+cursor: pointer;
+border: 1px solid #888888;
+background-color: #888888;
+color: white;
+padding: 8px;
+font-family: "Roboto Mono";
+border-radius: 4px;
+} 
