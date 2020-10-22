@@ -7,7 +7,7 @@ timeForm.addEventListener('submit', (e) => {
     e.preventDefault()
     const location = address.value
     time.textContent = 'Loading....'
-    fetch(`http://localhost:8080/time?address=${location}`).then((response) => {
+    fetch(`/time?address=${location}`).then((response) => {
   response.json().then((data) => {  
     if(data.error){
       time.textContent = data.error
